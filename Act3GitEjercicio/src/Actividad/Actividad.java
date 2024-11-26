@@ -7,8 +7,11 @@ public class Actividad {
 	public void entre2Numeros() {
 		int numero1=lector.nextInt();
 		int numero2=lector.nextInt();
+		int numero3=lector.nextInt();
 		for(int i=numero1;i<numero2; i+=7) {
-			
+			if((numero3<numero1) && (numero3>numero2)) {
+				System.out.println("El tercer número está comprendido entre en número 1 y el número 2");
+			}
 		}
 	}
 	public int[] numerosAleatorios(){
