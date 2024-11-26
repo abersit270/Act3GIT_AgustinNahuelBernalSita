@@ -10,7 +10,7 @@ public class Actividad {
 		int numero3=lector.nextInt();
 		for(int i=numero1;i<numero2; i+=7) {
 			if((numero3<numero1) && (numero3>numero2)) {
-				System.out.println("El tercer número está comprendido entre en número 1 y el número 2");
+				System.out.println("El tercer número comprendido entre num1 y num2");
 			}
 		}
 	}
