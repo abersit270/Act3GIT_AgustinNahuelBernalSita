@@ -4,6 +4,18 @@ import java.util.Scanner;
 public class Actividad {
 	Random aleatorio= new Random();
 	Scanner lector=new Scanner(System.in);
+	public void entre2Numeros() {
+		int numero1=lector.nextInt();
+		int numero2=lector.nextInt();
+		int numero3=lector.nextInt();
+		for(int i=numero1;i<numero2; i+=7) {
+			if((numero3<numero1) && (numero3>numero2)) {
+				System.out.println("El tercer número comprendido entre num1 y num2");
+
+			}
+		}
+	}
+
 	public int[] numerosAleatorios(){
 		int numeros[]=new int[30];
 		
